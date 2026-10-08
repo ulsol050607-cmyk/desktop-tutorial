@@ -75,8 +75,6 @@ class Player {
             this.health = health;
         }
     }
-
-    @Override
     public String toString() {
         return "Player[" + name + "] @ (" + x + "," + y + ") " + width + "x" + height + " HP=" + health;
     }
